@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/frameBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="逐帧动画"/>
+    <Button
+        android:id="@+id/tweenBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="补间动画"/>
+    <Button
+        android:id="@+id/propertyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="属性动画"/>
+    <Button
+        android:id="@+id/clickBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动画显示点击事件"/>
+    <Button
+        android:id="@+id/demoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="案例扇形动画"/>
+    <Button
+        android:id="@+id/demo2Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="案例倒计时动画"/>
+    <Button
+        android:id="@+id/animBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义动画ofObject"/>
+
+</LinearLayout>
